@@ -1,4 +1,6 @@
 /* Navbar Start */
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'); 
   body {  
     font-family:var(--bs-body-font-family);
@@ -254,7 +256,7 @@ ul {
 
 .header-kpd .btn-i1a  { 
     height: 54px; 
-    background: linear-gradient(-50deg, #5BCFF2 15%, #417DD2 47%, #322fb3 80%);
+    background: linear-gradient(-45deg, #2c2c2c 0%, #131313 50%, #000 100%); 
 } 
 
 .btn-i1a:before { 
@@ -264,8 +266,7 @@ ul {
     left: 0; 
     right: 0; 
     bottom: 0; 
-    background: rgb(113, 83, 217); 
-    background: linear-gradient(-45deg, #322fb3 20%, #417DD2 50%, #4fcbf1 100%); 
+    background: #266197;
     opacity: 0; 
     transition: 0.5s; 
     border-radius: 7px; 
