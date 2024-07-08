@@ -21,7 +21,11 @@ body {
 * { 
     box-sizing: border-box;
 } 
-
+.tl-logo{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
 body { 
     margin: 0; 
     font-family: var(--bs-body-font-family); 
@@ -66,8 +70,7 @@ html {
 }     
 
 .header-kpd { 
-    padding-top: 10px;
-    position: fixed; 
+    padding-top: 10px; 
     width: 100%; 
     z-index: 999;
 } 
@@ -337,11 +340,11 @@ li {
 } 
 
 .button-oeb:hover span { 
-    background: #4fcbf1;
+    background: #266197;
 } 
 
 .wrapper-co5 .button-oeb:hover span { 
-    background: #4fcbf1;
+    background: #266197;
 } 
 
 .button-oeb span:nth-of-type(2)  { 

@@ -523,7 +523,7 @@ p {
 } 
 
 .subtitle-fr9 { 
-    color: #4fcbf1; 
+    color:#266197; 
     font-size: 18px; 
     letter-spacing: 4px; 
     font-weight: 700; 
@@ -702,8 +702,7 @@ button {
     left: 0; 
     right: 0; 
     bottom: 0; 
-    background: rgb(113, 83, 217); 
-    background: linear-gradient(-45deg, #322fb3 20%, #417DD2 50%, #4fcbf1 100%); 
+    background: #266197;
     opacity: 0; 
     transition: 0.5s; 
     border-radius: 7px; 
@@ -1183,5 +1182,8 @@ li {
     animation-delay: 0.7s;  
     animation-name: fadeIn;  
 }  
+.social-media-icons{
+width: 30px;
+}
 
 /* Footer End */

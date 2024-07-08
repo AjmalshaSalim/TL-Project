@@ -500,6 +500,9 @@ html {
 
 /* Services Section Start */
 
+.service-section-icons{
+    width: 72px;
+}
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'); 
   body {  
     font-family:var(--bs-body-font-family);
@@ -963,7 +966,7 @@ img {
     font-family: "Open Sans", sans-serif; 
     font-weight: 700; 
     font-size: 72px; 
-    color: #4fcbf1; 
+    color: #266197; 
     line-height: 1; 
     margin-bottom: 10px; 
     display: block;
@@ -1000,7 +1003,7 @@ h4 {
 } 
 
 .subtitle-fl9 { 
-    color: #4fcbf1; 
+    color: #266197; 
     font-size: 18px; 
     letter-spacing: 4px; 
     font-weight: 700; 
@@ -1296,7 +1299,7 @@ li {
 } 
 
 .button-si9 .icon-h3s i  { 
-    color: #4fcbf1; 
+    color: #266197; 
     background: #ffffff; 
     font-size: 14px; 
     width: 44px; 
@@ -1738,7 +1741,7 @@ a:hover {
 } 
 
 .subtitle-qjo { 
-    color: #4fcbf1; 
+    color: #266197; 
     font-size: 18px; 
     letter-spacing: 4px; 
     font-weight: 700; 
