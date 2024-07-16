@@ -927,7 +927,7 @@ img {
     padding: 25px; 
     position: absolute; 
     top: 155px; 
-    margin-left: 235px; 
+    margin-left: 305px; 
     -webkit-animation: moveupdown1 4s infinite linear !important; 
     animation: moveupdown1 4s infinite linear !important;
 } 
@@ -938,7 +938,7 @@ img {
     padding: 44px 60px 50px 70px; 
     position: absolute; 
     top: 510px; 
-    margin-left: -186px; 
+    margin-left: -126px; 
     border-radius: 7px; 
     -webkit-animation: moveupdown1 6s infinite linear !important; 
     animation: moveupdown1 6s infinite linear !important;

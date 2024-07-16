@@ -22,6 +22,11 @@ body {
     box-sizing: border-box;
 } 
 .tl-logo{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+.tl-logo-footer{
     height: 100px;
     width: 100px;
     margin-bottom: 10px;
