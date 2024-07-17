@@ -4,12 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trivlogic | Home</title>
+    
     <link rel ="stylesheet" href="../assets/styles/navbar.css">
     <link rel ="stylesheet" href="../assets/styles/style.css">
     <link rel ="stylesheet" href="../assets/styles/home.css">
     <link rel ="stylesheet" href="../assets/styles/footer.css">
     <link rel ="stylesheet" href="../assets/styles/testmonials.css">
     <link rel ="stylesheet" href="../assets/styles/team.css">
+
+<!-- Banner Slider - fadeSlider -->
+<link rel="stylesheet" href="./assets/styles/fadeSlider.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/fadeSlider.js"></script>
+<style>
+    @media only screen and (max-width: 600px) {
+        .home-banner-title-section {
+    width: 100%;
+    padding-top: 1%;
+    margin-left: 4%;
+    padding-left: 1%;
+}
+.content-y6v .title-tfm {
+    font-size: 42px;
+    font-weight: 700;
+}
+.title-k7w {
+    font-size: 42px;
+    font-weight: 700;
+    color: #343c55;
+}
+.about-three-hfz {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.content-y6v {
+    position: relative;
+    top: 30px;
+    z-index: 997;
+}
+.subtitle-fl9 {
+    font-size: 12px;
+}
+.home-banner-container{
+   display: block;
+}
+.btn-zdj {
+    background: #322fb3;
+    background: linear-gradient(-45deg, #2c2c2c 0%, #131313 50%, #000 100%);
+    border: 0px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 5px;
+    line-height: 1;
+    position: relative;
+    margin-top: 5px;
+}
+.content-y6v .btn-zdj {
+    display: inline-block;
+    padding: 22px 58px;
+}
+.home-banner-image-section {
+    width: 100%;
+}
+.btn-i1a {
+   /* display: none; */
+}
+.service-section-card-container {
+    height: 400px;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.about-three-snx {
+    display: block;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+.button-si9 .phone-call-743 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #343c55;
+    transition: 0.3s;
+}
+.button-si9 {
+    display: block;
+    align-items: center;
+    -moz-column-gap: 35px;
+    column-gap: 35px;
+    margin-top: 50px;
+}
+.button-si9 .phone-7zt {
+ margin-top: 30px;
+}
+.title-dvh {
+    font-size: 42px;
+    font-weight: 700;
+    color: #343c55;
+}
+.chart-gtw {
+    box-shadow: 15px 11px 48px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    background-color: #ffffff;
+    padding: 14px;
+    position: absolute;
+    top: 355px;
+    margin-left: 280px;
+    -webkit-animation: moveupdown1 4s infinite linear !important;
+    animation: moveupdown1 4s infinite linear !important;
+}
+}
+</style>
+
 </head>
 <body>
   <!-- Navbar Start  -->
@@ -124,21 +236,46 @@
   <div class="sce-m2s style-gY94T" id="style-gY94T">
 
     <!-- Banner Title Start -->
-    <div class="home-banner-container" style="display: flex; width: 100%;">
+    <div class="home-banner-container" >
         <div class="home-banner-title-section">
             <div class="content-y6v">
-                <span class="subtitle-fl9">WE ARE AVERS</span>
-                <h2 class="title-tfm">Grow Your Business with Avers</h2>
-                <p>When the musics over turn off the light</p>
+                <span class="subtitle-fl9">WE ARE TRIVLOGIC</span>
+                <h2 class="title-tfm">Grow Your Business with Trivlogic</h2>
+                <p>Transform your business vision into reality</p>
                 <a href="service-details.html" class="btn-zdj"><span>Read More</span></a>
             </div>  
         </div>
         <!-- Banner Title End -->
         <!-- Banner Image Start -->
-        <div class="home-banner-image-section">
+        <!-- <div class="home-banner-image-section">
             <img class="style-jfJE1" src="./assets/images/Triv_Banner_Main.png" id="style-jfJE1">
-        </div> 
+        </div>  -->
         <!-- Banner Image End -->
+
+<!-- fadeSlider  start-->
+<div class="home-banner-image-section" style="top:350px;">
+    <ul class="items">
+      <!-- <li class="item current"> <img class="style-jfJE1" src="./assets/images/slider/slide-1.png" id="style-jfJE1"></li> -->
+      <li class="item current"> <img class="style-jfJE1" src="./assets/images/slider/slide-2.png" id="style-jfJE1"></li>
+      <li class="item"> <img class="style-jfJE1" src="./assets/images/slider/slide-3.png" id="style-jfJE1"></li>
+      <li class="item"> <img class="style-jfJE1" src="./assets/images/slider/slide-4.png" id="style-jfJE1"></li>
+    </ul>
+    <div class="buttons">
+      <button type=button id=prev class="button prev"></button>
+      <button type=button id=next class="button next"></button>
+    </div>
+    <div class="dots">
+      <button type=button class="dot current"></button>
+      <button type=button class="dot"></button>
+      <button type=button class="dot"></button>
+      <button type=button class="dot"></button>
+    </div>
+  </div>
+<!-- fadeSlider End-->
+
+
+
+
     </div>
     
     <div class="home-banner-image-section">
@@ -149,7 +286,7 @@
     <!-- Side layer Violet -->
     <div class="hero-xty shape-5zn style-YVoMB" id="style-YVoMB"><img src="https://ethemestudio.com/demo/avers/assets/images/slider/sliderthree-shape/shape1.png"></div>
     <!-- Side layer blue -->
-    <div class="hero-xty shape-g4s style-Xofox" id="style-Xofox"><img src="https://ethemestudio.com/demo/avers/assets/images/slider/sliderthree-shape/shape2.png"></div>
+    <div class="hero-xty shape-g4s style-Xofox" id="style-Xofox"><img src="./assets/images/layers/side-layer-violet.png"></div>
     <!-- Blue dot -->
     <div class="hero-xty shape-xf5 style-JOROi" id="style-JOROi"><img src="https://ethemestudio.com/demo/avers/assets/images/slider/sliderthree-shape/shape3.png"></div>
     
@@ -169,7 +306,7 @@
     <!-- Spinner -->
     <!-- <div class="hero-xty shape-ym8 style-zhiol" id="style-zhiol"><img src="https://ethemestudio.com/demo/avers/assets/images/slider/sliderthree-shape/shape12.png"></div> -->
     <!-- Big dot Purple -->
-    <div class="hero-xty shape-h52 style-YDD9o" id="style-YDD9o"><img src="https://ethemestudio.com/demo/avers/assets/images/slider/sliderthree-shape/shape13.png"></div>
+    <div class="hero-xty shape-h52 style-YDD9o" id="style-YDD9o"><img src="./assets/images/shapes/round-grey-big.png"></div>
     <!-- Green dot -->
     <div class="hero-xty shape-o56 style-mLeqy" id="style-mLeqy"><img src="https://ethemestudio.com/demo/avers/assets/images/slider/sliderthree-shape/shape14.png"></div>
     <!-- Orange Big Dot -->
@@ -180,40 +317,40 @@
   <div class="service-section-card-container">
     <div class="service-section-cards">
         <span>
-            <img src="../assets/images/icons/case.svg" class="service-section-icons">
+            <img src="./assets/images/icons/marketing.png" class="service-section-icons">
         </span>
         <div class="services-card-title-container">
-            <h4 class="services-card-title">Consultancy &amp; Solutions</h4>
+            <h4 class="services-card-title">Digital Marketing</h4>
         </div>
         
-        <p>Pore et dolore magna citia tion laboris nisidin uot aliq uip sueva</p>
+        <p>Enhance your online presence and boost engagement through strategic digital marketing solutions.</p>
     </div>
     <div class="service-section-cards">
         <span>
-            <img src="../assets/images/icons/case.svg" class="service-section-icons">
+            <img src="./assets/images/icons/web-designing.png" class="service-section-icons">
         </span>
         <div class="services-card-title-container">
-            <h4 class="services-card-title">Consultancy &amp; Solutions</h4>
+            <h4 class="services-card-title">Web Development</h4>
         </div>
-        <p>Pore et dolore magna citia tion laboris nisidin uot aliq uip sueva</p>
+        <p>Create robust, responsive websites tailored to your business needs with our expert web development services.</p>
     </div>
     <div class="service-section-cards">
         <span>
-            <img src="../assets/images/icons/case.svg" class="service-section-icons">
+            <img src="./assets/images/icons/software.png" class="service-section-icons">
         </span>
         <div class="services-card-title-container">
-            <h4 class="services-card-title">Consultancy &amp; Solutions</h4>
+            <h4 class="services-card-title">Software Development</h4>
         </div>
-        <p>Pore et dolore magna citia tion laboris nisidin uot aliq uip sueva</p>
+        <p>Develop custom software solutions designed to drive business growth efficiently.</p>
     </div>
     <div class="service-section-cards">
         <span>
-            <img src="../assets/images/icons/case.svg" class="service-section-icons">
+            <img src="./assets/images/icons/branding.png" class="service-section-icons">
         </span>
         <div class="services-card-title-container">
-            <h4 class="services-card-title">Consultancy &amp; Solutions</h4>
+            <h4 class="services-card-title"> Branding</h4>
         </div>
-        <p>Pore et dolore magna citia tion laboris nisidin uot aliq uip sueva</p>
+        <p>Craft a compelling brand identity that resonates with your audience and sets you apart from competitors.</p>
     </div>
   </div>
  
@@ -258,8 +395,8 @@
                 <div class="about-three-hfz">
                     <div class="heading-o7b">
                         <span class="subtitle-fl9">We help you to grow</span>
-                        <h2 class="title-k7w">Grow Your Business with Avers </h2>
-                        <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, con sectetur adipisicing elit, sed do eiusmod tem por Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h2 class="title-k7w">Empower Your Business Growth with Trivlogic </h2>
+                        <p>Unlock your business potential with Trivlogic. We specialize in digital marketing, web development, software development, and branding to help your business thrive. Partner with us to achieve remarkable growth and success. </p>
                     </div>
                     <div class="about-three-snx">
                         <div class="about-three-service-o6a">
@@ -315,10 +452,10 @@
                     <div class="button-si9">
                         <a href="service-details.html" class="btn-ck1"><span>Learn More</span></a>
                         <div class="phone-7zt">
-                            <a class="phone-call-743 d-jjp item-644 gap-tz4" href="tel:+0123456789">
-                                <span class="icon-h3s gradient-mp9">
-                                    <i class="fa-w99 fa-oq8"></i>
-                                </span> +880 123 4567890 </a>
+                            <a class="phone-call-743 d-jjp item-644 gap-tz4" href="tel:+91 8848609311">
+                                <span class="icon-h3s ">
+                                    <img src="./assets/images/icons/smartphone (1).png">
+                                </span>+91 8848609311 </a>
                         </div>
                     </div>
                 </div>
@@ -450,7 +587,7 @@
  <!-- Specification Card Section End-->
 
 <!-- Testmonials Start -->
-
+<!-- 
 <div class="section-2hs testimonial-trb style-jHlSQ" id="style-jHlSQ">
     <div class="container-msp style-dv31l" id="style-dv31l">
         <div class="row-2lk">
@@ -636,7 +773,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Testmonials End -->
 
@@ -644,21 +781,21 @@
 
 <div class="team-l6r">
     <div class="sha-srb style-V5Hor" id="style-V5Hor">
-        <div class="sha-2mi style-b9Ye8" id="style-b9Ye8">
+        <!-- <div class="sha-2mi style-b9Ye8" id="style-b9Ye8">
             <img src="https://ethemestudio.com/demo/avers/assets/images/team/team-three/1.png">
-        </div>
-        <div class="sha-iaq fa-e6g style-G6iTU" id="style-G6iTU">
+        </div> -->
+        <!-- <div class="sha-iaq fa-e6g style-G6iTU" id="style-G6iTU">
             <img src="https://ethemestudio.com/demo/avers/assets/images/team/team-three/2.png">
-        </div>
-        <div class="sha-eln fa-e6g style-aWFzd" id="style-aWFzd">
+        </div> -->
+        <!-- <div class="sha-eln fa-e6g style-aWFzd" id="style-aWFzd">
             <img src="https://ethemestudio.com/demo/avers/assets/images/team/team-three/3.png">
-        </div>
+        </div> -->
         <div class="sha-rcq zoo-dgr style-CMYdn" id="style-CMYdn">
             <img src="https://ethemestudio.com/demo/avers/assets/images/team/team-three/4.png">
         </div>
-        <div class="sha-the style-qsEAk" id="style-qsEAk">
+        <!-- <div class="sha-the style-qsEAk" id="style-qsEAk">
             <img src="https://ethemestudio.com/demo/avers/assets/images/team/team-three/5.png">
-        </div>
+        </div> -->
         <div class="sha-ng5 style-5bHpf" id="style-5bHpf">
             <img src="https://ethemestudio.com/demo/avers/assets/images/team/team-three/6.png">
         </div>
@@ -849,8 +986,8 @@
                         </div>
                         <ul class="footer-5d2">
                             <li> <span>20 Bordeshi, Amin Bazar <br> Dhaka 1348</span></li>
-                            <li> <span>hello@avers.com</span> </li>
-                            <li><span>+880 1234 567 890</span> </li>
+                            <li> <span>info@trivlogic.com</span> </li>
+                            <li><span>+91 8848609311</span> </li>
                         </ul>
                         <ul class="icon-ogo d-qfo">
                             <li>
@@ -999,5 +1136,42 @@
 </div>
 
 <!-- Footer End -->
+<script>
+    function slider(flag, num) {
+    var current = $(".item.current"),
+        next,
+        index;
+    if (!flag) {
+      next = current.is(":last-child") ? $(".item").first() : current.next();
+      index = next.index();
+    } else if (flag === 'dot') {
+      next = $(".item").eq(num);
+      index = num;
+    } else {
+      next = current.is(":first-child") ? $(".item").last() : current.prev();
+      index = next.index();
+    }
+    next.addClass("current");
+    current.removeClass("current");
+    $(".dot").eq(index).addClass("current").siblings().removeClass("current");
+  }
+  var setSlider = setInterval(slider, 4000);
+  
+  $(".button").on("click", function() {
+    clearInterval(setSlider);
+    var flag = $(this).is(".prev") ? true : false;
+    slider(flag);
+    setSlider = setInterval(slider, 4000);
+  });
+  
+  $(".dot").on("click", function() {
+    if ($(this).is(".current")) return;
+    clearInterval(setSlider);
+    var num = $(this).index();
+    slider('dot', num);
+    setSlider = setInterval(slider, 4000);
+  });
+  
+</script>
 </body>
 </html>

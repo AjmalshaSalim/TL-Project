@@ -1186,4 +1186,24 @@ li {
 width: 30px;
 }
 
+
+@media only screen and (max-width: 600px) {
+.newsletter-two-clh {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 90px;
+    border-bottom: 1px solid rgba(50, 47, 179, 0.13);
+    margin-bottom: 120px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+#style-NPjfZ.style-NPjfZ {
+    visibility: visible;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-name: fadeIn;
+    padding-bottom: 10px;
+}
+}
 /* Footer End */
