@@ -3,12 +3,11 @@
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email= $_POST['email'];
-$country= $_POST['country'];
 $message= $_POST['message'];
 $topic= $_POST['topic'];
 
-$subject = "New Enquiry From " . $country . "- ajmalaj8085@gmail.com";
-$to = "ajmalaj8085@gmail.com";
+$subject = "New Enquiry from" . "- info@trivlogic.com";
+$to = "info@trivlogic.com";
 $txt = "Full Name : " . $name . "\r\nContact Number : " . $phone . "\r\nCountry : " . $country ."\r\nSubject : " . $topic . "\r\nMessage : " . $message;
 $subject = " $subject";
 $headers = "From: " . $email;
